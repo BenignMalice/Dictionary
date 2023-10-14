@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import "./App.css";
+import "./responsive.css";
 
 function App() {
   const [word, setWord] = useState("");

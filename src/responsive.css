@@ -1,0 +1,64 @@
+/* Default Layout */
+@media (min-width: 769px) {
+  body {
+    margin: 20px;
+  }
+
+  .results {
+    width: 700px;
+  }
+}
+
+/* Medium-Sized Screens Layout */
+@media (max-width: 768px) {
+  body {
+    margin: 10px;
+  }
+
+  .results {
+    width: 90%;
+  }
+}
+
+/* Small Screens Layout */
+@media (max-width: 480px) {
+  body {
+    margin: 5px;
+  }
+
+  .results {
+    width: 100%;
+  }
+}
+
+/* Mobile Layout */
+@media (max-width: 320px) {
+  body {
+    margin: 5px;
+  }
+
+  .App h1 {
+    font-size: 2rem;
+  }
+
+  .results {
+    width: 100%;
+  }
+
+  input[type="text"] {
+    width: 100%;
+  }
+}
+
+/* Mixed Mobile and Desktop Layout */
+@media (max-width: 480px) {
+  body {
+    margin: 5px;
+  }
+}
+
+@media (min-width: 769px) {
+  body {
+    margin: 20px;
+  }
+}
